@@ -1,0 +1,20 @@
+clone repository to pc
+git clone git@github.com:esen10/<REPO>.git
+
+add file to staging with comment
+git commit -m "<comment>" 
+
+add all unstaged files to stageing area within repository
+git add -A
+
+add all unstaged files to stageing area within directory
+git add .
+
+show current git information
+git status
+
+push git changes to repository
+git push origin main
+
+show git log
+git log
